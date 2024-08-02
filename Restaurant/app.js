@@ -18,10 +18,14 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_restaurant'
+        // host: 'localhost',
+        // user: 'root',
+        // password: '',
+        // database: 'c237_restaurant'
+        host: 'mysql-foodexpress.alwaysdata.net',
+        user: '371283',
+        password: 'p@ssw0rd', // << Not his pw
+        database: 'foodexpress_2024'
 });
 connection.connect((err) => {
     if (err) {
