@@ -24,7 +24,7 @@ const connection = mysql.createConnection({
         // database: 'c237_restaurant'
         host: 'mysql-foodexpress.alwaysdata.net',
         user: '371283',
-        password: 'Irfanghani27',
+        password: 'KingIrfan27',
         database: 'foodexpress_2024'
 });
 connection.connect((err) => {
